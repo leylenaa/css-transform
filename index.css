@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(243, 230, 247);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 50px 0 50px;
+}
+.card{
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purplecard{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(181, 88, 190, 0.737);
+    position: absolute;
+    z-index: 1;
+    border: 0.5px solid rgba(181, 88, 190, 0.737);
+    transition-duration:0.5s;
+   
+
+}
+.graycard{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(120, 116, 114, 0.808);
+    position: relative;
+}
+
+.p-one:hover{
+    transform: rotate(45deg);
+}
+.p-two:hover{
+    height: 70px;
+ 
+}
+.p-three:hover{
+    width: 70px;
+}
+.p-four:hover{
+transform: scale(2);
+}
+.p-five:hover{
+    transform: scaleX(2);
+}
+.p-six:hover{
+    transform: scaleY(2);
+}
+.p-seven:hover{
+    transform: skew(45deg);
+}
+.p-eight:hover{
+    transform: skewY(45deg);
+}
+.p-nine:hover{
+    transform: translate(50px,10px);
+}
+.p-ten:hover{
+    transform: translate(50px);
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.p-eleven:hover{
+    transform: translateY(50px);
+}
+.p-twelve:hover{
+    transform: skewY(45deg) translateY(-90px) scale(2);
+   transform-origin: left;
+}
+.p-thirteen:hover{
+    transform:  perspective(100px) rotateX(50deg);
+  
+    
+}
+.p-fourteen:hover{
+    transform: perspective(120px) rotateY(45deg)  ;
+}
+.p-fifteen{
+    transform-origin: top right;
+}
+.p-fifteen:hover{
+    transform: rotate(45deg);
+  
+}
+.p-sixteen{
+    transform-origin: bottom left;
+}
+.p-sixteen:hover{
+    transform: rotate(45deg);
+   
+}
+.p-seventeen:hover{
+    transform:  perspective(300px) rotateX(40deg);
+    transform-origin: bottom;
+  
+    
+}
+.p-eighteen:hover{
+    transform:  perspective(300px) rotateX(50deg);
+    transform-origin: top;
+  
+    
+}
+
+.p-nineteen:hover{
+    transform:  perspective(300px) rotateY(40deg);
+    transform-origin: left;
+  
+    
+}
+.p-twenty:hover{
+    transform:  perspective(300px) rotateY(50deg);
+    transform-origin: right;
+  
+    
+}
+.p-twentyone{
+    transform-origin: top right;
+}
+.p-twentyone:hover{
+    transform: scale(2);
+    
+
+}
+.p-twentytwo{
+    transform-origin: bottom left;
+}
+.p-twentytwo:hover{
+    transform: scale(2);
+    
+
+}
+.p-twentythree{
+    transform-origin: right;
+}
+.p-twentythree:hover{
+    transform: scaleX(2);
+   
+}
+.p-twentyfour{
+    transform-origin: left;
+}
+.p-twentyfour:hover{
+    transform: scaleX(2);
+   
+}
+.p-twentyfive{
+    transform-origin: top;
+}
+.p-twentyfive:hover{
+    transform: scaleY(2);
+   
+}
+.p-last{
+    transform-origin: bottom;
+}
+.p-last:hover{
+    transform: scaleY(2);
+   
+}
